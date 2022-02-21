@@ -75,74 +75,155 @@
 
         default_layer {
             bindings = <
- &kp EQUAL &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &mo CONTROL                                                    &mo CONTROL &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS
- &kp TAB &kp Q &kp W &kp E &kp R &kp T &none                                                            &none &kp Y &kp U &kp I &kp O &kp P &kp BSLH
- &kp ESC &kp A &kp S &kp D &kp F &kp G &none                                                            &kp LCTRL &kp LALT &none &none &kp LGUI &kp RCTRL &none &kp H &kp J &kp K &kp L &kp SEMI &kp SQT
- &kp LSHFT &lt CONTROL Z &hm LCTRL X &hm LALT C &hm LGUI V &kp B &none &none &kp HOME &none             &none &kp PG_UP &none &none &kp N &hm LGUI M &hm LALT COMMA &hm LCTRL DOT &kp FSLH &kp RSHFT
- &mo NUMBERS &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT &hm LSHFT DEL &hm LGUI RET &mo NUMBERS                               &mo SYMBOL &lt NAV SPACE &hm LSHFT BSPC &kp UP &kp DOWN &kp LBKT &kp RBKT &mo NUMBERS
+// Row 1 Left - 7
+&kp EQUAL &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &mo CONTROL
+// Row 1 Right - 7 
+&mo CONTROL &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS
+// Row 2 Left - 7
+&kp TAB &kp Q &kp W &kp E &kp R &kp T &none
+// Row 2 Right - 7
+&none &kp Y &kp U &kp I &kp O &kp P &kp BSLH
+// Row 3 Left - 10
+&kp ESC &kp A &kp S &kp D &kp F &kp G &none &kp LCTRL &kp LALT &none 
+// Row 3 Right - 10
+&none &kp LGUI &kp RCTRL &none &kp H &kp J &kp K &kp L &kp SEMI &kp SQT
+// Row 4 Left - 10
+&kp LSHFT &lt CONTROL Z &hm LCTRL X &hm LALT C &hm LGUI V &kp B &none &none &kp HOME &none
+// Row 4 Right - 10
+&none &kp PG_UP &none &none &kp N &hm LGUI M &hm LALT COMMA &hm LCTRL DOT &kp FSLH &kp RSHFT
+// Row 5 Left - 8
+&mo NUMBERS &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT &hm LSHFT DEL &hm LGUI RET &mo NUMBERS
+// Row 5 Right - 8
+&mo SYMBOL &lt NAV SPACE &hm LSHFT BSPC &kp UP &kp DOWN &kp LBKT &kp RBKT &mo NUMBERS
             >;
         };
 
         windows {
             bindings = <
- &trans &trans &trans &trans &trans &trans &trans                           &trans &trans &trans &trans &trans &trans &trans
- &trans &trans &trans &trans &trans &trans &trans                           &trans &trans &trans &trans &trans &trans &trans
- &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
- &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
- &trans &trans &trans &trans &trans &trans &hm LCTRL RET &trans             &trans &trans &trans &trans &trans &trans &trans &trans
+// Row 1 Left - 7
+&trans &trans &trans &trans &trans &trans &trans
+// Row 1 Right - 7
+&trans &trans &trans &trans &trans &trans &trans
+// Row 2 Left - 7
+&trans &trans &trans &trans &trans &trans &trans
+// Row 2 Right - 7
+&trans &trans &trans &trans &trans &trans &trans
+// Row 3 Left - 10
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+// Row 3 Right - 10
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+// Row 4 Left - 10
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+// Row 4 Right - 10
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+// Row 5 Left - 8
+&trans &trans &trans &trans &trans &trans &hm LCTRL RET &trans
+// Row 5 Right - 8
+&trans &trans &trans &trans &trans &trans &trans &trans
             >;
         };
 
          nav {
             bindings = <
- &none &none &none &none &none &none &kp K_MUTE                           &none &none &none &none &none &none &none
- &none &none &none &none &none &none &kp C_VOL_UP                           &none &none &none &none &none &none &none
- &none &none &none &none &none &none &kp C_VOL_DN &none &none &none         &none &none &none &none &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
- &none &none &none &none &none &none &none &none &none &none         &none &none &none &none &kp LG((LBRC)) &kp LA(LS(DOWN)) &kp LA(LS(UP)) &kp LG((RBRC)) &none &none
- &none &none &none &none &none             &none &none &none         &none &none &none             &none &none &none &none &none
+// Row 1 Left - 7
+&none &none &none &none &none &none &kp K_MUTE
+// Row 1 Right - 7
+&none &none &none &none &none &none &none
+// Row 2 Left - 7
+&none &none &none &none &none &none &kp C_VOL_UP
+// Row 2 Right - 7
+&none &none &none &none &none &none &none
+// Row 3 Left - 10
+&none &none &none &none &none &none &kp C_VOL_DN &none &none &none
+// Row 3 Right - 10
+&none &none &none &none &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
+// Row 4 Left - 10
+&none &none &none &none &none &none &none &none &none &none
+// Row 4 Right - 10
+&none &none &none &none &kp LG((LBRC)) &kp LA(LS(DOWN)) &kp LA(LS(UP)) &kp LG((RBRC)) &none &none
+// Row 5 Left - 8
+&none &none &none &none &none &none &none &none
+// Row 5 Right - 8
+&none &none &none &none &none &none &none &none
             >;
         };
 
 
         numbers {
             bindings = <
- &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &trans    &trans &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
- &none &none &none &none &none &none &none &none &none &none &none &none &none &none
- &kp EQUAL &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &none &none &none         &none &none &none &none &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS
- &none &none &none &none &none &none &none &none &none &none  &none &none &none &none &none &none &none &none &none &none
- &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans &trans 
+// Row 1 Left - 7
+&kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &trans
+// Row 1 Right - 7
+&trans &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
+// Row 2 Left - 7
+&none &none &none &none &none &none &none
+// Row 2 Right - 7
+&none &none &none &none &none &none &none
+// Row 3 Left - 10
+&kp EQUAL &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &none &none &none &none
+// Row 3 Right - 10
+&none &none &none &none &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS
+// Row 4 Left - 10
+&none &none &none &none &none &none &none &none &none &none
+// Row 4 Right - 10
+&none &none &none &none &none &none &none &none &none &none
+// Row 5 Left - 8
+&trans &trans &trans &trans &trans &trans &trans &trans
+// Row 5 Right - 8
+&trans &trans &trans &trans &trans &trans &trans &trans 
             >;
         };
 
        symbol {
             bindings = <
- &none &none &none &none &none &none &none                           &none &none &none &none &none &none &none
- &none &none &none &none &none &none &none                           &none  &kp GRAVE &kp EQUAL &kp LBKT &kp RBKT &kp PIPE &none
- &none &none &none &none &none &none &none &none &none &none         &none &none &none &none &kp LBRC &kp RBRC &kp LPAR &kp RPAR &none &none
- &none &none &none &none &none &none &none &none &none &none         &none &none &none &none &none &none &kp LT &kp GT &kp BSLH  &none
- &none &none &none &none &none             &none &none &none         &none &none &none             &none &none &none &none &none
+// Row 1 Left - 7
+&none &none &none &none &none &none &none
+// Row 1 Right - 7
+&none &none &none &none &none &none &none
+// Row 2 Left - 7
+&none &none &none &none &none &none &none
+// Row 2 Right - 7
+&none  &kp GRAVE &kp EQUAL &kp LBKT &kp RBKT &kp PIPE &none
+// Row 3 Left - 10
+&none &none &none &none &none &none &none &none &none &none
+// Row 3 Right - 10
+&none &none &none &none &kp LBRC &kp RBRC &kp LPAR &kp RPAR &none &none
+// Row 4 Left - 10
+&none &none &none &none &none &none &none &none &none &none
+// Row 4 Right - 10
+&none &none &none &none &none &none &kp LT &kp GT &kp BSLH  &none
+// Row 5 Left - 8
+&none &none &none &none &none &none &none &none
+// Row 5 Right - 8
+&none &none &none &none &none &none &none &none
             >;
         };
 
 
         CONTROL {
             bindings = <
- &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none
- &none &none &tog WINDOW &none &none &none &bootloader &bootloader &none &none &none &none &none &none
- &none &none &none &none &none &none &none &bt BT_CLR &none &none &none &bt BT_CLR &bt BT_CLR &none &none &none &none &none &none &none
- &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none
- &none &none &none &bl BL_INC &bl BL_DEC &rgb_ug RGB_TOG &bl BL_TOG &none &none &bl BL_TOG &rgb_ug RGB_TOG &bl BL_INC &bl BL_DEC &none &none &none
+// Row 1 Left - 7
+&none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none
+// Row 1 Right - 7
+&trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none
+// Row 2 Left - 7
+&none &none &tog WINDOWS &none &none &none &bootloader
+// Row 2 Right - 7
+&bootloader &none &none &none &none &none &none
+// Row 3 Left - 10
+&none &none &none &none &none &none &none &bt BT_CLR &none &none
+// Row 3 Right - 10
+&none &bt BT_CLR &bt BT_CLR &none &none &none &none &none &none &none
+// Row 4 Left - 10
+&none &none &none &none &none &none &none &none &none &none
+// Row 4 Right - 10
+&none &none &none &none &none &none &none &none &none &none
+// Row 5 Left - 8
+&none &none &none &bl BL_INC &bl BL_DEC &rgb_ug RGB_TOG &bl BL_TOG &none
+// Row 5 Right - 8
+&none &bl BL_TOG &rgb_ug RGB_TOG &bl BL_INC &bl BL_DEC &none &none &none
             >;
         };
 
     };
 };
-// nav {
-//             bindings = <
-//  &none &none &none &none &none &none &none                           &none &none &none &none &none &none &none
-//  &none &none &none &none &none &none &none                           &none &none &none &none &none &none &none
-//  &none &none &none &none &none &none &none &none &none &none         &none &none &none &none &none &none &none &none &none &none
-//  &none &none &none &none &none &none &none &none &none &none         &none &none &none &none &none &none &none &none &none &none
-//  &none &none &none &none &none             &none &none &none         &none &none &none             &none &none &none &none &none
-        //     >;
-        // };
