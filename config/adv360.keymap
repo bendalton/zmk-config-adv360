@@ -31,17 +31,17 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <17 18>;
+            key-positions = <16 17>;
             bindings = <&gresc>;
         };
 		combo_tab {
             timeout-ms = <50>;
-            key-positions = <31 32>;
+            key-positions = <30 31>;
             bindings = <&kp TAB>;
         };
 		combo_quote {
             timeout-ms = <50>;
-            key-positions = <40 41>;
+            key-positions = <39 40>;
             bindings = <&kp SQT>;
         };
 		// combo_cmdenter {
@@ -78,11 +78,11 @@
  &kp TAB &kp Q &kp W &kp E &kp R &kp T &none                                                            &none &kp Y &kp U &kp I &kp O &kp P &kp BSLH
  &kp ESC &kp A &kp S &kp D &kp F &kp G &none                                                            &kp LCTRL &kp LALT &none &none &kp LGUI &kp RCTRL &none &kp H &kp J &kp K &kp L &kp SEMI &kp SQT
  &kp LSHFT &lt CONTROL Z &hm LCTRL X &hm LALT C &hm LGUI V &kp B &none &none &kp HOME &none             &none &kp PG_UP &none &none &kp N &hm LGUI M &hm LALT COMMA &hm LCTRL DOT &kp FSLH &kp RSHFT
- &mo 2 &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT &kp DEL &hm LGUI RET &kp END                               &kp PG_DN &lt NAV SPACE &kp BSPC &kp UP &kp DOWN &kp LBKT &kp RBKT &mo 1
+ &mo 2 &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT &hm LSHFT DEL &hm LGUI RET &kp END                               &kp PG_DN &lt NAV SPACE &hm LSHFT BSPC &kp UP &kp DOWN &kp LBKT &kp RBKT &mo 1
             >;
         };
 
-         windows {
+        windows {
             bindings = <
  &trans &trans &trans &trans &trans &trans &trans                           &trans &trans &trans &trans &trans &trans &trans
  &trans &trans &trans &trans &trans &trans &trans                           &trans &trans &trans &trans &trans &trans &trans
