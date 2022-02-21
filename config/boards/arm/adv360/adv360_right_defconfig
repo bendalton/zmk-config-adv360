@@ -50,6 +50,8 @@ CONFIG_ZMK_BACKLIGHT_AUTO_OFF_IDLE=y
 
 CONFIG_ZMK_HID_REPORT_TYPE_NKRO=y
 
+# Turn on basic HID commands for support with Mac
+CONFIG_ZMK_HID_CONSUMER_REPORT_USAGES_BASIC=y
 
 # Turn on logging, and set ZMK logging to debug output
 CONFIG_LOG=y
