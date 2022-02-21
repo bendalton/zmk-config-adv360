@@ -84,9 +84,9 @@
 // Row 2 Right - 7
 &kp LA(LSHFT) &kp Y &kp U &kp I &kp O &kp P &kp BSLH
 // Row 3 Left - 10
-&kp ESC &kp A &kp S &kp D &kp F &kp G &none &kp LCTRL &kp LALT LC(LA(LSHFT)) 
+&kp ESC &kp A &kp S &kp D &kp F &kp G &none &kp LCTRL &kp LALT &kp LC(LA(LSHFT)) 
 // Row 3 Right - 10
-&kp LALT LC(LA(LSHFT)) &kp LGUI &kp RCTRL &none &kp H &kp J &kp K &kp L &kp SEMI &kp SQT
+&kp LC(LA(LSHFT)) &kp LGUI &kp RCTRL &none &kp H &kp J &kp K &kp L &kp SEMI &kp SQT
 // Row 4 Left - 10
 &kp LSHFT &lt CONTROL Z &hm LCTRL X &hm LALT C &hm LGUI V &kp B &none &none &kp HOME &none
 // Row 4 Right - 10
