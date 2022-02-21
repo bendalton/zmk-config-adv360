@@ -41,7 +41,7 @@
         };
 		combo_quote {
             timeout-ms = <50>;
-            key-positions = <39 40>;
+            key-positions = <45 46>;
             bindings = <&kp SQT>;
         };
 		// combo_cmdenter {
@@ -84,9 +84,9 @@
 
         windows {
             bindings = <
+ &kp W &trans &trans &trans &trans &trans &trans                           &trans &trans &trans &trans &trans &trans &trans
  &trans &trans &trans &trans &trans &trans &trans                           &trans &trans &trans &trans &trans &trans &trans
- &trans &trans &trans &trans &trans &trans &trans                           &trans &trans &trans &trans &trans &trans &trans
- &trans &trans &trans &trans &trans &trans &trans                           &trans &trans &trans &trans &trans &trans &trans
+ &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans      &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
  &trans &trans &trans &trans &trans &trans &hm LCTRL RET &trans             &trans &trans &trans &trans &trans &trans &trans &trans
             >;
