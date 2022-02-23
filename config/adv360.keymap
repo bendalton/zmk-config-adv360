@@ -126,7 +126,7 @@
          nav {
             bindings = <
 // Row 1 Left - 7
-&none &none &none &none &none &none &kp K_MUTE
+&none &none &none &none &none &kp C_MUTE &kp K_MUTE
 // Row 1 Right - 7
 &none &none &none &none &none &none &none
 // Row 2 Left - 7
