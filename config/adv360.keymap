@@ -134,7 +134,7 @@
 // Row 2 Right - 7
 &kp LG(LS(N5)) &none &none &none &none &none &none
 // Row 3 Left - 10
-&none &none &none &none &none &none &kp C_VOL_DN &kp LA(LSHFT) &kp N9 &kp N0
+&none &none &none &none &none &none &kp C_VOL_DN &kp LA(LSHFT) &kp LC(LA(LSHFT)) &none
 // Row 3 Right - 10
 &kp N1 &kp N2 &kp N3 &kp N4 &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
 // Row 4 Left - 10
