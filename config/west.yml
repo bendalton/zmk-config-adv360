@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/refil
   projects:
     - name: zmk
-      remote: refil
-      revision: adv360-beta
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
